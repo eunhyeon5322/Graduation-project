@@ -1,0 +1,15 @@
+{
+  "name": "drowsiness_detection_node",
+  "version": "1.0.0",
+  "description": "Node.js application for storing drowsiness detection data into MySQL database",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "luxon": "^3.4.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}
